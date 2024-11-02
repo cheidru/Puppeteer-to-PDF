@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web page to PDF</title>
+</head>
+<body>
+    <main>
+        <h1>Convert web page to PDF</h1>
+
+        <label>
+            Input web page address to convert
+            <input type="text" id="web-page-address" required>
+        </label>
+    
+        <label>
+            Input PDF file name
+            <input type="text" id="pdf-file-name" required>
+        </label>
+    
+        <label>
+            Select PDF file format
+            <select id="paper-format">
+                <option value="a1">A1</option>
+                <option value="a2">A2</option>
+                <option value="a3" selected>A3</option>
+                <option value="a4">A4</option>
+                <option value="a5">A5</option>
+                <option value="a6">A6</option>
+            </select>
+        </label>
+    
+        <button id="start-conversion" disabled>Convert</button>
+    </main>
+
+</body>
+<script src="script.js"></script>
+</html>

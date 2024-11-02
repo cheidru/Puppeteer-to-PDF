@@ -1,5 +1,10 @@
 {
+ 
   "dependencies": {
     "puppeteer": "^23.6.1"
+  },
+
+  "scripts": {
+    "start": "node script.js"
   }
 }
